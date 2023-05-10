@@ -107,6 +107,17 @@ nav img {
   margin: 0 1rem;
 }
 
+.nav-img:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  background-color: aqua;
+  border-radius: 25px;
+}
+
+.nav-item:hover img {
+  filter: brightness(50%);
+}
+
 .profile-img {
   width: 200px;
   height: 200px;

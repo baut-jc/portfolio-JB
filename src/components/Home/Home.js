@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import profile from '../../assets/profile.png'
 import gitHub from '../../assets/gitHubLogo.png'
 import linkedIn from '../../assets/linkedIn.png'
@@ -53,16 +54,17 @@ export const Home = () => {
 
   return (
     <div>
-      {/* <Menu /> */}
     <div className="profile-container">
-      <img className="profile-img" src={profile} alt="Profile"/>
+      <Link to="/about">
+        <img className="profile-img" src={profile} alt="Profile"/>
+      </Link>
       <div className='info'>
         <h1>Jocelle Bautista</h1>
         <h3 className={`typing ${developerType === "Software Developer" ? "" : "replace"}`}>{developerType}</h3>
         <nav>
-          <img className="gitHub" src={gitHub} alt="https://github.com/baut-jc"/>
-          <img className="linkedIn" src={linkedIn} alt="https://www.linkedin.com/in/jocelle-bautista/"/>
-          <img className="resume" src={resume} alt="https://github.com/baut-jc"/>
+          <a href="https://github.com/baut-jc" target="_blank"><img className="nav-img gitHub" src={gitHub} alt="https://github.com/baut-jc"/></a>
+          <a href="https://www.linkedin.com/in/jocelle-bautista/" target="_blank"><img className="nav-img linkedIn" src={linkedIn} alt="https://www.linkedin.com/in/jocelle-bautista/"/></a>
+          <img className="nav-img resume" src={resume} alt="JBautista-RSM"/>
         </nav>
       </div>
     </div>
