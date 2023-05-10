@@ -11,11 +11,11 @@ import { Menu } from '../components/Menu/Menu';
 import { Projects } from '../components/Projects/Projects';
 
 
-function App () {
+export default function App () {
   return (
     <div className="App">
       <Router>
-          <Menu />
+        <Menu />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -26,4 +26,3 @@ function App () {
   );
 }
 
-export default App

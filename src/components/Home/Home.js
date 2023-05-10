@@ -10,7 +10,7 @@ export const Home = () => {
 
   useEffect(() => {
     let timeoutId;
-    const textArray = ["Software Developer", "Front-End Developer"];
+    const textArray = ["Software Developer", "Front-End Developer", "Creator", "Designer", "Problem Solver"];
     let index = 0;
 
     const animateText = () => {
@@ -52,6 +52,8 @@ export const Home = () => {
   }, []);
 
   return (
+    <div>
+      {/* <Menu /> */}
     <div className="profile-container">
       <img className="profile-img" src={profile} alt="Profile"/>
       <div className='info'>
@@ -63,6 +65,7 @@ export const Home = () => {
           <img className="resume" src={resume} alt="https://github.com/baut-jc"/>
         </nav>
       </div>
+    </div>
     </div>
   )
 }

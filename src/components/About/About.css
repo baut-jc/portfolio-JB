@@ -1,0 +1,183 @@
+/* About.css */
+/* body {
+  padding-top: 25em;
+} */
+
+/* Center the content vertically and horizontally */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 45em;
+  max-width: 800px;
+  padding: 0 75px;
+  position: relative;
+}
+
+/* Set the max-width of the container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.about-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+/* loop over the images */
+.image-slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.image-slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0; */
+  /* animation: slide 5s linear infinite; */
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0; */
+  transform: translateX(100%);
+  /* transition: transform 3s linear, opacity 1.5s ease-in-out; */
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.slide-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about-container p {
+  margin: 1rem 0;
+  text-align: justify;
+  line-height: 1.5;
+  max-width: 800px;
+}
+
+/* Make the skills icons more organized */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  width: 100px;
+}
+
+.skill img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.skill p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Add arrows for sliding */
+.slide-container .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.slide-container .arrow:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.slide-container .prev {
+  left: 10px;
+}
+
+.slide-container .next {
+  right: 10px;
+}
+
+/* Add dots for indicating page */
+.slide-container .dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.slide-container .dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.slide-container .dot.active {
+  background-color: #fff;
+}
