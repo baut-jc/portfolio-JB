@@ -57,9 +57,7 @@ export const Home = () => {
     <div className="profile-container">
         <a href="https://terminal.turing.edu/alumni/1773-jocelle-bautista" target="_blank"><img className="profile-img" src={profile} alt="Profile"/></a>
       <div className='info'>
-        <Link to ="/about">
           <h1>Jocelle Bautista</h1>
-        </Link>
         <h3 className={`typing ${developerType === "Software Developer" ? "" : "replace"}`}>{developerType}</h3>
         <nav>
           <a href="https://github.com/baut-jc" target="_blank"><img className="nav-img gitHub" src={gitHub} alt="https://github.com/baut-jc"/></a>
