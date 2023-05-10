@@ -67,10 +67,10 @@ export const About = () => {
         ))}
       </div>
       <p>
-        Hi there! My name is Jocelle, and I am a recent graduate of Turing Software and Design School in the Front-end engineering bootcamp. Prior to embarking on my journey in tech, I worked as an art teacher for Pre-K to middle school students. During my time as an educator, I was elected teacher lead, which allowed me to hone my leadership and communication skills.
+        Hi there! My name is Jocelle, and I am a recent graduate of Turing Software and Design School specializing in Front-End Software Engineering. Prior to embarking on my journey in tech, I worked as an art teacher for Pre-K to middle school students for about 9 years. During my time as an educator, I was elected Teacher Lead, which allowed me to hone my leadership and communication skills.
       </p>
       <p>
-        Before teaching, I also worked as a server and sales lead, where I developed excellent customer service and teamwork abilities. As an artist, I have always been passionate about creating visually appealing and functional designs. That's why I decided to transition into tech and pursue a career in front-end engineering.
+        Throughout my teaching career, I also worked as a server and sales lead, where I developed excellent customer service and teamwork abilities. As an artist, I have always been passionate about creating visually appealing and functional designs. That's why I decided to transition into tech and pursue a career in front-end engineering.
       </p>
       <p>
         As a first-generation Filipino, I am proud to bring my diverse background and unique perspective to the tech industry. I am excited to use my creativity and problem-solving skills to build intuitive and user-friendly interfaces. I am also passionate about using technology to make a positive impact on society and to bridge the digital divide.
