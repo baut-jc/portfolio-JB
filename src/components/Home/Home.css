@@ -1,4 +1,6 @@
-html, body {
+/* default styles for all devices */
+html,
+body {
   height: 100%;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -14,22 +16,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
 }
 
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 30vh;
+  height: 30vh;
   border-radius: 50%;
-  border: 2px solid #ffffff00;
   margin-bottom: 2rem;
+  border: 5px solid #000000;
   filter: grayscale(0%);
   transition: filter 0.2s ease-in-out;
 }
 
 .profile-img:hover {
   background-color: aqua;
-  /* filter: grayscale(100%); */
 }
 
 .info {
@@ -48,7 +48,6 @@ body {
   text-align: right;
   padding-right: 1rem;
 }
-
 
 h1 {
   display: flex;
@@ -94,7 +93,6 @@ h3 {
   50% { border-color: rgb(176, 120, 6) }
 }
 
-
 nav {
   display: flex;
   justify-content: center;
@@ -118,10 +116,26 @@ nav img {
   filter: brightness(50%);
 }
 
-.profile-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 7px solid #000;
-  margin-bottom: 2rem;
+/* media query for smaller devices in portrait orientation */
+@media only screen and (orientation: portrait) and (max-width: 768px) {
+
+  /* adjust layout */
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    margin: 0;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .info h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-right: 0;
+    border: none;
+    margin: 0;
+  }
 }

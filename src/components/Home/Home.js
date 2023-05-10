@@ -55,9 +55,7 @@ export const Home = () => {
   return (
     <div>
     <div className="profile-container">
-      <Link to="/about">
-        <img className="profile-img" src={profile} alt="Profile"/>
-      </Link>
+        <a href="aqua"><img className="profile-img" src={profile} alt="Profile"/></a>
       <div className='info'>
         <h1>Jocelle Bautista</h1>
         <h3 className={`typing ${developerType === "Software Developer" ? "" : "replace"}`}>{developerType}</h3>
