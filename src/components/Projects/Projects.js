@@ -63,13 +63,6 @@ export const Projects = () => {
     deploy: "",
     repo: ""},
   ]
-  //create local data containing array of [projects]
-    //title
-    //image or gif
-    //detail
-    //time spent
-    //summary
-    //tech used
 
   const projectSpecs = projects.map (project => { 
     return ( //hover to show gif --> style maybe
@@ -79,6 +72,7 @@ export const Projects = () => {
       style={{backgroundImage: `url(${project.src})`}}>
         <div className='gradient'>
           <h3>{project.title}</h3>
+          <h6>{project.techs}</h6>
           <p>{project.description}</p>
           <button>DEPLOY</button>
           <button>REPO</button>
