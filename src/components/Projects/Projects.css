@@ -8,7 +8,7 @@
 
 .project-summary {
   background-color: #f7f7f7;
-  background-position: center;
+  background-position: initial;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.5rem;
@@ -16,11 +16,12 @@
   color: #333;
   display: flex;
   flex-direction: column;
+  text-align: center;
   height: 20rem;
   margin: 1rem;
   overflow: hidden;
   position: relative;
-  width: 20rem;
+  width: 40rem;
 }
 
 .project-summary:before {
@@ -31,7 +32,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
   z-index: 1;
 }
 
@@ -40,12 +41,16 @@
 }
 
 .project-summary h3 {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  flex-direction: column;
+  text-align: center;
   color: #333;
   font-size: 1.53rem;
-  font-weight: 800;
+  font-weight: 900;
   margin: 3rem;
-  padding: 2px 10px 4px 10px;
-  text-align: center;
+  /* padding: 2px 10px 4px 10px; */
   z-index: 2;
 }
 
@@ -57,7 +62,7 @@
   justify-content: center;
   text-align: center;
   left: 0;
-  padding: 1rem;
+  /* padding: 1rem 1rem 1rem 1rem; */
   position: absolute;
   transform: translateY(100%);
   transition: transform 0.3s ease;
@@ -66,9 +71,24 @@
 }
 
 .project-summary p {
-  font-size: .7rem;
+  font-size: 0.7rem;
   text-align: center;
   margin-left: 2rem;
+}
+
+.project-summary .techs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.project-summary .tech {
+  background-color: #333;
+  color: #fff;
+  font-size: 0.7rem;
+  margin: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 15px;
 }
 
 @media (max-width: 600px) {

@@ -2,6 +2,7 @@ import React from 'react';
 import hophead from '../../assets/projects/hophead.png';
 import levies from '../../assets/projects/levies.png';
 import potatoes from '../../assets/projects/putrescent.png';
+import grants from '../../assets/projects/grant.png';
 import './Projects.css'
 
 export const Projects = () => {
@@ -47,7 +48,7 @@ export const Projects = () => {
     repo: ""},
     {title: "Grant Guru",
     description: "A web application that serves people of all ages in search of grants for higher education.",
-    src: potatoes,
+    src: grants,
     time: "40 hours",
     techs: [
       "React",
@@ -64,26 +65,30 @@ export const Projects = () => {
     repo: ""},
   ]
 
-  const projectSpecs = projects.map (project => { 
-    return ( //hover to show gif --> style maybe
-    <div 
+  const projectSpecs = projects.map((project, index) => (
+    <div
       className='project-summary'
       id={project.id}
-      style={{backgroundImage: `url(${project.src})`}}>
-        <div className='gradient'>
-          <h3>{project.title}</h3>
-          <h6>{project.techs}</h6>
-          <p>{project.description}</p>
-          <button>DEPLOY</button>
-          <button>REPO</button>
+      style={{ backgroundImage: `url(${project.src})` }}
+      key={index}
+    >
+      <div className='gradient'>
+        <h3>{project.title}</h3>
+        <div className='techs'>
+          {project.techs.map((tech, index) => (
+            <span className='tech' key={index}>{tech}</span>
+          ))}
         </div>
+        <p>{project.description}</p>
+        <button>DEPLOY</button>
+        <button>REPO</button>
+      </div>
     </div>
-  )
-  })
+  ));
 
   return (
     <div className='projects'>
       {projectSpecs}
     </div>
-  )
-}
+  );
+};
