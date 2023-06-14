@@ -93,6 +93,7 @@ export const Projects = () => {
     >
       <div className='gradient'>
         <h1>{project.title}</h1>
+        <p>{project.description}</p>
         <div className='techs'>
           {project.techs.map((tech, index) => (
             <span className='tech' key={index}>{tech}</span>
@@ -100,10 +101,10 @@ export const Projects = () => {
         </div> 
         <div className='buttons'>
           <a href={project.deploy} target="_blank">
-            <img src={deploy} alt={project.deploy}/>
+            <img src={deploy} alt={project.deploy} title="deploy"/>
           </a>
           <a href={project.repo} target="_blank">
-            <img src={repo} alt={project.repo}/>
+            <img src={repo} alt={project.repo} title="repo"/>
           </a>
         </div>
       </div>

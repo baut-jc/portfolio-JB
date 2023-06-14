@@ -50,7 +50,7 @@
   color: #333;
   font-size: 1.53rem;
   font-weight: 900;
-  margin: 3rem;
+  margin-bottom: 0;
   z-index: 2;
 }
 
@@ -64,17 +64,18 @@
   left: 0;
   /* padding: 1rem 1rem 1rem 1rem; */
   position: absolute;
-  transform: translateY(110%);
+  transform: translateY(90%);
   transition: transform 0.3s ease;
   width: 100%;
   z-index: 2;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }
 
 .project-summary p {
   font-size: 0.7rem;
   text-align: center;
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .project-summary .techs {
@@ -98,7 +99,7 @@
   justify-content: center;
 }
   .buttons img{
-    width: 5vw;
+    width: auto;
     height: 5vh;
     margin: 1rem;
   }
