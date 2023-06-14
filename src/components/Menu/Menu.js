@@ -15,7 +15,7 @@ export const Menu = () => {
         <NavLink exact to="/" activeClassName="active" onClick={() => setIsChecked(false)}>Home</NavLink>
         <NavLink to="/about" activeClassName="active" onClick={() => setIsChecked(false)}>About</NavLink>
         <NavLink to="/projects" activeClassName="active" onClick={() => setIsChecked(false)}>Projects</NavLink>
-        <NavLink to="/contact" activeClassName="active" onClick={() => setIsChecked(false)}>Contact</NavLink>
+        {/* <NavLink to="/contact" activeClassName="active" onClick={() => setIsChecked(false)}>Contact</NavLink> */}
       </div>
     </nav>
   )
