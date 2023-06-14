@@ -3,6 +3,7 @@ import hophead from '../../assets/projects/hophead.png';
 import levies from '../../assets/projects/levies.png';
 import potatoes from '../../assets/projects/putrescent.png';
 import grants from '../../assets/projects/grant.png';
+import leak from '../../assets/projects/leak.png'
 import './Projects.css'
 
 export const Projects = () => {
@@ -17,8 +18,8 @@ export const Projects = () => {
       "CSS",
       "HTML"],
     type: "Collaborative",
-    deploy: "",
-    repo: ""},
+    deploy: "https://putrescent-potato.vercel.app/",
+    repo: "https://github.com/baut-jc/putrescent-potato"},
     {title: "L'EVies", 
     description: "This is a web application designed for EV drivers. It can locate charging stations by their charging type and zip code. Users can select and save specific stations or add them to their itinerary tab for future reference.",
     src: levies,
@@ -28,11 +29,12 @@ export const Projects = () => {
       "Cypress",
       "Sass CSS",
       "HTML",
-      "TypeScript"
+      "TypeScript",
+      "Restful APIs"
     ],
     type: "Collaborative",
-    deploy: "",
-    repo: ""},
+    deploy: "https://baut-jc.github.io/levies/",
+    repo: "https://github.com/baut-jc/levies"},
     {title: "HopHead", 
     description: "This is an application for brewery-hoppers who want to locate nearby breweries and view detailed information about them. Users can save their favorite breweries for future reference.",
     src: hophead,
@@ -42,10 +44,11 @@ export const Projects = () => {
       "Cypress",
       "CSS",
       "HTML",
+      "Restful APIs"
     ],
     type: "Independent",
-    deploy: "",
-    repo: ""},
+    deploy: "https://hop-head.vercel.app/",
+    repo: "https://github.com/baut-jc/hop-head"},
     {title: "Grant Guru",
     description: "A web application that serves people of all ages in search of grants for higher education.",
     src: grants,
@@ -61,8 +64,22 @@ export const Projects = () => {
       "Rails on Ruby",
       "Django"],
     type: "Collaborative",
+    deploy: "https://grant-guru-fe.vercel.app/",
+    repo: "https://github.com/grant-guru/grant-guru-fe"},
+    {title: "The Leak",
+    description: "A web application that provides users New York Times' US top stories.",
+    src: leak,
+    time: "8 hours",
+    techs: [
+      "Javascript",
+      "React",
+      "CSS",
+      "HTML",
+      "Restful APIs"
+    ],
+    type: "Independent",
     deploy: "",
-    repo: ""},
+    repo: "https://github.com/baut-jc/the-leak"},
   ]
 
   const projectSpecs = projects.map((project, index) => (
@@ -73,13 +90,12 @@ export const Projects = () => {
       key={index}
     >
       <div className='gradient'>
-        <h3>{project.title}</h3>
+        <h1>{project.title}</h1>
         <div className='techs'>
           {project.techs.map((tech, index) => (
             <span className='tech' key={index}>{tech}</span>
           ))}
-        </div>
-        <p>{project.description}</p>
+        </div> 
         <button>DEPLOY</button>
         <button>REPO</button>
       </div>
