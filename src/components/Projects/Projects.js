@@ -98,8 +98,14 @@ export const Projects = () => {
             <span className='tech' key={index}>{tech}</span>
           ))}
         </div> 
-        <img src={deploy} alt={project.deploy}/>
-        <img src={repo} alt={project.repo}/>
+        <div className='buttons'>
+          <a href={project.deploy} target="_blank">
+            <img src={deploy} alt={project.deploy}/>
+          </a>
+          <a href={project.repo} target="_blank">
+            <img src={repo} alt={project.repo}/>
+          </a>
+        </div>
       </div>
     </div>
   ));
