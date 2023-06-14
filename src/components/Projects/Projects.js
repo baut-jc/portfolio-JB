@@ -4,6 +4,8 @@ import levies from '../../assets/projects/levies.png';
 import potatoes from '../../assets/projects/putrescent.png';
 import grants from '../../assets/projects/grant.png';
 import leak from '../../assets/projects/leak.png'
+import deploy from '../../assets/deploy.png';
+import repo from '../../assets/repo.png'
 import './Projects.css'
 
 export const Projects = () => {
@@ -96,8 +98,8 @@ export const Projects = () => {
             <span className='tech' key={index}>{tech}</span>
           ))}
         </div> 
-        <button>DEPLOY</button>
-        <button>REPO</button>
+        <img src={deploy} alt={project.deploy}/>
+        <img src={repo} alt={project.repo}/>
       </div>
     </div>
   ));
