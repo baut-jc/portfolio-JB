@@ -91,8 +91,7 @@ Through her training at Turing Software and Design School, Jocelle has developed
 Jocelle's work ethic is second to none. Her passion for design, coupled with her commitment to lifelong learning, positions her as a valuable asset to any team. She thrives on challenges and is driven by the opportunity to make a positive impact on society and bridge the digital divide.
 
 If you are seeking a dynamic professional who can seamlessly blend artistry and technical expertise to create extraordinary experiences, Jocelle is the perfect collaborator. Connect with her today and let her bring your vision to life through her front-end engineering skills."
-
-Please note that this is a general rewrite, and you may customize it further to reflect your specific experiences, achievements, and aspirations.</p> */}
+</p> */}
       <h2>Skills</h2>
       <div className="skills-container">
         <div className="skill">
