@@ -130,3 +130,9 @@ If you are seeking a dynamic professional who can seamlessly blend artistry and 
     </div>
 )
 }
+
+//change text formating with inline images
+  //include some artworks
+  //create backend for api access to display in this page.
+  // --> or create a different link that will access a website...
+  // --> could be included in projects page.
