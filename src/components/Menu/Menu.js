@@ -20,3 +20,6 @@ export const Menu = () => {
     </nav>
   )
 }
+
+
+//stick with NAVLINK, but change from router to scroll
