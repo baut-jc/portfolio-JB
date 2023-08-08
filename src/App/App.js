@@ -26,3 +26,6 @@ export default function App () {
   );
 }
 
+//remove react router for one page accessibility
+  //route to scroll down to component
+//add contacts on the footer
