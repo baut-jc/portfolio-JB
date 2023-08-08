@@ -136,3 +136,5 @@ If you are seeking a dynamic professional who can seamlessly blend artistry and 
   //create backend for api access to display in this page.
   // --> or create a different link that will access a website...
   // --> could be included in projects page.
+// add section for certificates
+  //update languages/skills
