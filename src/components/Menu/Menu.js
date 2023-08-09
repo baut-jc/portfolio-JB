@@ -21,5 +21,7 @@ export const Menu = () => {
   )
 }
 
-
-//stick with NAVLINK, but change from router to scroll
+//style
+  //--> burger menu style will scroll with page; maintain NAVLINK to highlight current section
+  //stick with NAVLINK, but change from router to scroll
+  //add contact option
