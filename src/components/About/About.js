@@ -78,20 +78,6 @@ export const About = () => {
       <p>
         Through my bootcamp experience, I have gained proficiency in HTML, CSS, JavaScript, and React. I have also honed my skills in version control with Git and GitHub, and I am always eager to learn new technologies and tools. With my strong work ethic, passion for design, and commitment to lifelong learning, I am confident that I will excel as a front-end engineer and make meaningful contributions to any team.
       </p>
-      {/* <p>Jocelle is a talented and versatile professional with a passion for blending artistry and technology. With a background in art education and a recent specialization in Front-End Software Engineering from Turing Software and Design School, Jocelle brings a unique perspective to the world of technology.
-
-With nine years of experience as an art teacher for Pre-K to middle school students, Jocelle honed her leadership and communication skills, earning the role of Teacher Lead. This invaluable experience taught her the importance of engaging interfaces and effective communication in the digital realm.
-
-Jocelle's journey in technology is fueled by her innate passion for creating visually appealing designs. With a strong foundation in art and an unwavering commitment to excellence, she decided to transition into the world of tech to pursue a career in front-end engineering.
-
-As a first-generation Filipino, Jocelle takes pride in her diverse background and unique perspective. She sees it as a valuable asset that enriches her work in the tech industry. Her creativity and problem-solving skills drive her to build intuitive and user-friendly interfaces that leave a lasting impression.
-
-Through her training at Turing Software and Design School, Jocelle has developed proficiency in HTML, CSS, JavaScript, and React. Her expertise extends to version control with Git and GitHub, and she actively seeks opportunities to learn and adapt to new technologies and tools.
-
-Jocelle's work ethic is second to none. Her passion for design, coupled with her commitment to lifelong learning, positions her as a valuable asset to any team. She thrives on challenges and is driven by the opportunity to make a positive impact on society and bridge the digital divide.
-
-If you are seeking a dynamic professional who can seamlessly blend artistry and technical expertise to create extraordinary experiences, Jocelle is the perfect collaborator. Connect with her today and let her bring your vision to life through her front-end engineering skills."
-</p> */}
       <h2>Skills</h2>
       <div className="skills-container">
         <div className="skill">
