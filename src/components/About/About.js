@@ -124,3 +124,6 @@ export const About = () => {
   // --> could be included in projects page.
 // add section for certificates
   //update languages/skills
+
+
+  //add artwork slides that's inline with the messages.
