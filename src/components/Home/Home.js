@@ -11,7 +11,7 @@ export const Home = () => {
 
   useEffect(() => {
     let timeoutId;
-    const textArray = ["Software Developer", "Front-End Developer", "Creator", "Designer", "Problem Solver"];
+    const textArray = ["Software Engineer", "Front-End Developer", "Creator", "Designer", "Problem Solver"];
     let index = 0;
 
     const animateText = () => {
