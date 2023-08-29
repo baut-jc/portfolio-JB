@@ -60,9 +60,15 @@ export const Home = () => {
           <h1>Jocelle Bautista</h1>
         <h3 className={`typing ${developerType === "Software Developer" ? "" : "replace"}`}>{developerType}</h3>
         <nav>
-          <a href="https://github.com/baut-jc" target="_blank"><img className="nav-img gitHub" src={gitHub} alt="https://github.com/baut-jc"/></a>
-          <a href="https://www.linkedin.com/in/jocelle-bautista/" target="_blank"><img className="nav-img linkedIn" src={linkedIn} alt="https://www.linkedin.com/in/jocelle-bautista/"/></a>
-          <a href="https://terminal.turing.edu/alumni/1773-jocelle-bautista" target="_blank"></a><img className="nav-img resume" src={resume} alt="JBautista-RSM"/>
+          <a href="https://github.com/baut-jc" target="_blank">
+            <img className="nav-img gitHub" src={gitHub} alt="https://github.com/baut-jc"/>
+          </a>
+          <a href="https://www.linkedin.com/in/jocelle-bautista/" target="_blank">
+            <img className="nav-img linkedIn" src={linkedIn} alt="https://www.linkedin.com/in/jocelle-bautista/"/>
+          </a>
+          <a href="https://drive.google.com/file/d/18fO83ZK5k-yINWtU-3bfTGke8oJM391v/view" target="_blank">
+            <img className="nav-img resume" src={resume} alt="JBautista-RSM.pdf"/>
+          </a>
         </nav>
       </div>
     </div>
