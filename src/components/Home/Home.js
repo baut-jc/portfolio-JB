@@ -11,7 +11,14 @@ export const Home = () => {
 
   useEffect(() => {
     let timeoutId;
-    const textArray = ["Software Engineer", "Front-End Developer", "Creator", "Designer", "Problem Solver"];
+    const textArray = 
+      ["Software Engineer", 
+        "Front-End Developer", 
+        "Creator", 
+        "Designer", 
+        "Problem Solver", 
+        "Engineer", 
+        "Learner"];
     let index = 0;
 
     const animateText = () => {
@@ -67,7 +74,7 @@ export const Home = () => {
             <img className="nav-img linkedIn" src={linkedIn} alt="https://www.linkedin.com/in/jocelle-bautista/"/>
           </a>
           <a href="https://drive.google.com/file/d/18fO83ZK5k-yINWtU-3bfTGke8oJM391v/view" target="_blank">
-            <img className="nav-img resume" src={resume} alt="JBautista-RSM.pdf"/>
+            <img className="nav-img resume" src={resume} alt="JBautista-RSM.pdf/"/>
           </a>
         </nav>
       </div>
