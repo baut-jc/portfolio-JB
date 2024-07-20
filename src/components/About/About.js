@@ -5,6 +5,7 @@ import html from '../../assets/html5.png';
 import css from '../../assets/css.png';
 import react from '../../assets/react.png';
 import redux from '../../assets/redux.png';
+import sql from '../../assets/sql.png'
 import cypress from '../../assets/cypress.png';
 import typescript from '../../assets/typescript.png';
 import figma from '../../assets/figma.png';
@@ -106,6 +107,10 @@ export const About = () => {
         <div className="skill">
           <img src={redux} alt="Redux" />
           <p>Redux</p>
+        </div>
+        <div className="skill">
+          <img src={sql} alt="SQL" />
+          <p>SQL</p>
         </div>
         <div className="skill">
           <img src={cypress} alt="Cypress" />
