@@ -67,16 +67,19 @@ export const About = () => {
         ))}
       </div>
       <p>
-        Hi there! My name is Jocelle, and I am a recent graduate of Turing Software and Design School specializing in Front-End Software Engineering. Prior to embarking on my journey in tech, I worked as an art teacher for Pre-K to middle school students for about 9 years. During my time as an educator, I was elected Teacher Lead, which allowed me to hone my leadership and communication skills.
+        Hi there! I'm Jocelle, a recent graduate of Turing Software and Design School specializing in Front-End Software Engineering. Currently, I teach Engineering and am continuously eager to learn and grow professionally.
       </p>
       <p>
-        Throughout my teaching career, I also worked as a server and sales lead, where I developed excellent customer service and teamwork abilities. As an artist, I have always been passionate about creating visually appealing and functional designs. That's why I decided to transition into tech and pursue a career in front-end engineering.
+        Before my tech journey, I spent about 9 years as an art teacher for Pre-K to middle school students. Being elected Teacher Lead allowed me to hone my leadership and communication skills. My experience as a server and sales lead further developed my customer service and teamwork abilities. My passion for creating visually appealing and functional designs inspired my transition into tech.
       </p>
       <p>
-        As a first-generation Filipino, I am proud to bring my diverse background and unique perspective to the tech industry. I am excited to use my creativity and problem-solving skills to build intuitive and user-friendly interfaces. I am also passionate about using technology to make a positive impact on society and to bridge the digital divide.
+        New Mexico, has become a place of profound inspiration for me. The vibrant community, rich with cultural diversity and natural beauty, fuels my creativity in painting, designing, and working out. I am deeply committed to building and contributing to this community, whether through teaching, participating in local events, or advancing my work in technology.
       </p>
       <p>
-        Through my bootcamp experience, I have gained proficiency in HTML, CSS, JavaScript, and React. I have also honed my skills in version control with Git and GitHub, and I am always eager to learn new technologies and tools. With my strong work ethic, passion for design, and commitment to lifelong learning, I am confident that I will excel as a front-end engineer and make meaningful contributions to any team.
+        As a first-generation Filipino, I bring a diverse background and unique perspective to the tech industry. My journey as an educator has taught me to embrace challenges, whether from students or school environments, and to learn from them. This adaptability has been crucial in thriving in various dynamic environment. I'/m excited to apply my creativity and problem-solving skills to build user-friendly interfaces and make a positive impact through technology.
+      </p>
+      <p>
+        Proficient in HTML, CSS, JavaScript, and React, I am always eager to learn new technologies and tools. With a strong work ethic and a commitment to lifelong learning, I am confident in my ability to excel as a front-end engineer and contribute meaningfully to any team.
       </p>
       <h2>Skills</h2>
       <div className="skills-container">
@@ -117,13 +120,4 @@ export const About = () => {
 )
 }
 
-//change text formating with inline images
-  //include some artworks
-  //create backend for api access to display in this page.
-  // --> or create a different link that will access a website...
-  // --> could be included in projects page.
-// add section for certificates
-  //update languages/skills
-
-
-  //add artwork slides that's inline with the messages.
+//div for art gallery, etc.
