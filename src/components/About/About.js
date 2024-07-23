@@ -11,13 +11,17 @@ import typescript from '../../assets/typescript.png';
 import figma from '../../assets/figma.png';
 import eol from '../../assets/eol.jpeg';
 import grad from '../../assets/may19.jpg';
+import paintfam from '../../assets/paintnight.png';
+import midtech from '../../assets/midtech.png'
 import './About.css';
 
 export const About = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     { image: eol, title: "The Academy for the Love of Learning", year: "SY. 2017-2018" },
-    { image: grad, title: "Nava Elementary Kindergarten Graduation", year: "May 2019"}
+    { image: grad, title: "Nava Elementary Kindergarten Graduation", year: "May 2019"},
+    { image: paintfam, title: "Paint Night at Home with the Fam", year: "Feb 2021"},
+    { image: midtech, title: "OMS 6th grade formatting HTML syntax", year: "Spring 2024"}
   ];
 
   const nextSlide = () => {
